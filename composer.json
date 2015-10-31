@@ -1,0 +1,19 @@
+{
+    "name": "jamlee/coroutine",
+    "description": "example about supporting coroutine",
+    "authors": [
+        {
+            "name": "jamlee",
+            "email": "jamlee@jamlee.cn"
+        }
+    ],
+    "require": {
+		"php": ">=5.5.0"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Jamlee\\Coroutine\\": ["src/"]
+		}
+	}
+}
